@@ -1,0 +1,166 @@
+
+/*imagen completa de la pagina*/
+ body {
+  background-image: url(../img/pexels-rene-asmussen-1345574.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  box-sizing: border-box;
+  background-attachment: fixed;
+ width: 100%;
+}
+/* barra de menu*/
+.logomenu{
+    width: 120px;
+    height: 50px;
+    float: left;
+    padding: 8px;
+}
+
+nav{
+    float: right;
+}
+nav ul li {
+    list-style: none;
+    margin-left: 75px;
+    padding: 12px 0;
+    float: left;
+    position: relative;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+
+}
+
+
+nav ul li a ::before {
+ display: block;
+ content: ¨;
+width: 0;
+background: #444;
+height: 5px;
+top: 0;
+position: absolute;
+transition: width 0.2s;
+}
+
+nav ul li a :hover ::before{
+    width: 100%;
+}
+
+header{
+background:pink;
+width: 100%;
+clear: both;
+content:¨ ;
+display:table;
+
+}
+
+menu{
+    width: 100px;
+    margin: 0 auto;
+}
+/* titulo de la pagina */
+.titulo{
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+/*estilos de gradiente a la imagen de toda la web*/
+.capa{
+    
+    background: linear-gradient(130deg,blue,pink);
+    opacity: 0.2;
+    position: absolute;
+    background-size: cover;
+} 
+
+
+   
+
+/*imagenes principales para hacer carrousel*/
+ h2{
+    text-align: center;
+    color: cornsilk;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-evenly;
+}
+
+.card{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border:solid 2px palevioletred;
+ 
+ 
+  
+
+}
+.acordion{
+    margin: 20px 20px 0 0;
+
+}
+
+
+.form-acordion{
+    justify-content: space-evenly;
+   align-items: baseline;
+   width: 100%;
+   margin: 0;
+   
+
+}
+ 
+
+/*estilos de formulario*/
+.conformulario{
+    display: flex;
+    border:solid 2px palevioletred;
+    max-width: 300px;
+    position:relative;
+   background-color:#FAE5D3;
+    margin-left: 60px;
+    
+    margin-top: 15px;
+    margin-bottom: 20px;
+
+}
+ /*formulario completo*/
+form{
+    padding: 30px;
+
+}
+input{
+    background: #FEF9E7;
+}
+.enviar{
+    background:#F5B7B1 ;
+  
+
+}
+
+.enviar:hover{
+    background: #EC7063;
+    color: aliceblue;
+}
+
+.accordion-item{
+    flex: center;
+    width: 350px;
+    background-color: palevioletred;
+}
+ 
+.salon img{
+    
+    align-items: center;
+    border-radius: 50%;
+}
+
